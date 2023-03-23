@@ -7,7 +7,7 @@ class BannerSection1 extends React.Component {
       return(
          <div className="BannerSection1">
             <Header/>
-            <main className='main__section'>
+            <main className='main__section1'>
                <div className='text__con'>
                   <div className='top__text'>
                      <p className='text'>Become a</p>
@@ -20,15 +20,27 @@ class BannerSection1 extends React.Component {
                      <p className='text'>in cyber reality</p>
                   </div>
                </div>
-               <img className='cyberpunk__girl' src='./img/img-section1-3d.png'/>
+               <div className='cyberpunk__girl'>
+                  <img className='girl__img' src='./img/img-section1-3d.png'/>
+                  <img className='girl__blur' src='./img/img-section1-3d-blur.svg'/>
+               </div>
+               
                <button className='join__btn'>join the game</button>
 
                <div className='links'>
                   <div className='icons'>
-                     <img src='./img/discord.png'/>
-                     <img src='./img/medium.png'/>
-                     <img src='./img/telegram.png'/>
-                     <img src='./img/twitter.png'/>
+                     <div className='img'>
+                        <img src='./img/discord.svg'/>
+                     </div>
+                     <div className='img'>
+                        <img src='./img/medium.svg'/>
+                     </div>
+                     <div className='img'>
+                        <img src='./img/telegram.svg'/>
+                     </div>
+                     <div className='img'>
+                        <img src='./img/twitter.svg'/>
+                     </div>
                   </div>
                   <p>social media</p>
 

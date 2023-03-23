@@ -15,12 +15,30 @@ class Header extends React.Component {
 
                <img src='./img/logo.svg'/>
                <ul>
-                  <li><a href="#home">about us</a></li>
-                  <li><a href="#news">technology</a></li>
-                  <li><a href="#contact">game</a></li>
-                  <li><a href="#about">roadmap</a></li>
-                  <li><a href="#team">team</a></li>
-                  <li><a href="#faq">faq</a></li>
+                  <li>
+                     <a href="#home">about us</a>
+                     <div className='gold__line'></div>
+                     </li>
+                  <li>
+                     <a href="#news">technology</a>
+                     <div className='gold__line'></div>
+                     </li>
+                  <li>
+                     <a href="#contact">game</a>
+                     <div className='gold__line'></div>
+                     </li>
+                  <li>
+                     <a href="#about">roadmap</a>
+                     <div className='gold__line'></div>
+                     </li>
+                  <li>
+                     <a href="#team">team</a>
+                     <div className='gold__line'></div>
+                     </li>
+                  <li>
+                     <a href="#faq">faq</a>
+                     <div className='gold__line'></div>
+                     </li>
                </ul>
 
                <div className='burger'>

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+sizer(w,h)
+    width: w
+    height: h
+
+
+.QuestionSection2
+    sizer(100%, 503px)
+    display: flex
+    justify-content: center
+    align-items: center
+
+.section
+    position relative
+    display: flex
+    align-items: flex-end
+    sizer(65%, 503px)
+    flex-direction: column
+.question__bar
+    display: flex
+    gap 33px
+.frame
+    position relative
+    sizer(220px, 95px)
+    background-image: url(img/frame.svg)
+    display: flex
+    align-items: center
+.frame img
+    position: absolute
+    top -35px
+    left: -40px
+.text__in__frame
+    margin-left 39px
+    sizer(85px,54px)
+    /* Desktop/Details */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    /* or 18px */
+
+
+    /* White */
+
+    color: rgb(255, 255, 255);
+.text_blockssec
+    z-index 1
+    top 70px
+    left: 0
+    position: absolute
+    sizer(436px,288px)
+    display: flex
+    flex-direction: column
+.text__of_second_sec
+
+    margin: 0
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 80%;
+    /* or 72px */
+
+    text-transform: uppercase;
+
+    /* White */
+
+    color: #FFFFFF;
+.text__of_second_sec span
+    color #EDB614
+.img__block
+    z-index 0
+    position relative
+    margin-top 44px
+.city
+    z-index 1
+    top 0
+    right: 0
+    position: absolute
+.city__blur
+    z-index 0
+    top -120px
+    right: 0
+    position: absolute
+.lower__text__con
+    margin-top 31px
+    margin-left: 10px 
+.lower__text
+    /* Desktop/Body */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    /* or 21px */
+
+
+    /* White */
+
+    color: #FFFFFF;
+    margin: 0
+@media screen and  (max-width: 1440px) {
+    .section{
+        sizer(90%, 503px)
+    }
+        
+}

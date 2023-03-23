@@ -1,3 +1,16 @@
 body{
     margin: 0;
+    background: #0F1A1E;
+}
+body::-webkit-scrollbar {
+    display: none;             /* width of the entire scrollbar */
+  }
+.main__section{
+    width: 100%;
+    background: linear-gradient(180deg, #0F1A1E 8%, rgba(15, 26, 30, 0.284) 70.19%), url('img/img-bg-longreed.svg');
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }

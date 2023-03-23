@@ -5,14 +5,27 @@ sizer(w,h)
 
 .BannerSection1
     sizer(100%, 100vh)
-    background: linear-gradient(180deg, rgba(15, 26, 30, 0.836) 51.56% , #0F1A1E 100%), url(img/bg.svg);
+    background: linear-gradient(180deg, rgba(15, 26, 30, 0.136) 1.56% , rgba(15, 26, 30, 1) 100%), url(img/bg.svg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 .cyberpunk__girl
     position: absolute
     top: 100px
-    left: 870px
+    left: 1200px
     z-index 1
     transform: matrix(1, 0, 0, 1, 0, 0);
     animation: 2s infinite alternate imgrotate;
+.girl__img
+    z-index 1
+    position: absolute
+.girl__blur
+    position: absolute
+    top 3px
+    left: 10px
+    z-index 0
 .text__con
     margin-top 154px
     margin-left 132px
@@ -69,6 +82,7 @@ sizer(w,h)
     color: #FFFFFF;
     margin 0
 .join__btn
+    cursor: pointer
     margin-top 40px
     margin-left 132px
     sizer(214px,59px)
@@ -117,10 +131,21 @@ sizer(w,h)
     display: flex
     gap 16px
 
-.icons img
+.icons .img
+    sizer(35px, 35px)
     filter: drop-shadow(0px 5px 0.75rem rgba(20, 239, 232, 0.255)); 
+    background-image: url(img/Subtract.svg)
+    cursor pointer
+    transition: 0.2s
+    display: flex
+    align-items: center
+    justify-content: center
+.img:hover
+    background-image: url(img/Subtract_L.svg)
+
 
 .arrow
+    cursor: pointer
     position: fixed
     bottom: 27px
     right: 120px
@@ -133,5 +158,11 @@ sizer(w,h)
   }
   to {
     transform: matrix(1, -0.07, -0.07, 1, 0, 0);
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .cyberpunk__girl {
+    left 900px
   }
 }
