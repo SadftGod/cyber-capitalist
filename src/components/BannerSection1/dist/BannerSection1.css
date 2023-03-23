@@ -10,8 +10,8 @@
 }
 .cyberpunk__girl {
   position: absolute;
-  top: 100px;
-  left: 1200px;
+  top: 80px;
+  left: 1190px;
   z-index: 1;
   transform: matrix(1, 0, 0, 1, 0, 0);
   animation: 2s infinite alternate imgrotate;
@@ -27,6 +27,7 @@
   z-index: 0;
 }
 .text__con {
+  position: relative;
   margin-top: 154px;
   margin-left: 132px;
   display: flex;
@@ -140,6 +141,7 @@
   background-image: url("img/Subtract_L.svg");
 }
 .arrow {
+  z-index: 10;
   cursor: pointer;
   position: fixed;
   bottom: 27px;
@@ -147,7 +149,10 @@
 }
 @media screen and (max-width: 1440px) {
   .cyberpunk__girl {
-    left: 900px;
+    left: 830px;
+  }
+  .text__con {
+    margin-top: 120px;
   }
 }
 @-moz-keyframes imgrotate {
@@ -155,7 +160,7 @@
     transform: matrix(1, 0, 0, 1, 0, 0);
   }
   to {
-    transform: matrix(1, -0.07, -0.07, 1, 0, 0);
+    transform: matrix(1, -0.09, -0.09, 1, 0, 0);
   }
 }
 @-webkit-keyframes imgrotate {
@@ -163,7 +168,7 @@
     transform: matrix(1, 0, 0, 1, 0, 0);
   }
   to {
-    transform: matrix(1, -0.07, -0.07, 1, 0, 0);
+    transform: matrix(1, -0.09, -0.09, 1, 0, 0);
   }
 }
 @-o-keyframes imgrotate {
@@ -171,7 +176,7 @@
     transform: matrix(1, 0, 0, 1, 0, 0);
   }
   to {
-    transform: matrix(1, -0.07, -0.07, 1, 0, 0);
+    transform: matrix(1, -0.09, -0.09, 1, 0, 0);
   }
 }
 @keyframes imgrotate {
@@ -179,6 +184,6 @@
     transform: matrix(1, 0, 0, 1, 0, 0);
   }
   to {
-    transform: matrix(1, -0.07, -0.07, 1, 0, 0);
+    transform: matrix(1, -0.09, -0.09, 1, 0, 0);
   }
 }
