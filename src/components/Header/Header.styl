@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+
+sizer(w,h)
+    width w
+    height h
+
+.Header
+    sizer(100%, 80px)
+    display: flex
+    justify-content: space-around
+    align-items: center
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 75%;
+    gap 300px
+
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: white
+
+ul 
+    sizer(483px, 31px)
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex
+    justify-content: space-between
+    text-align: center
+li
+    display: flex
+    align-items: center
+
+a
+    text-decoration: none
+    color white
+    transition: 0.5s
+a:hover
+    color: #EDB614;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+.burger
+    cursor pointer
+    sizer(40px, 40px)
+    display: flex
+    flex-direction: column
+    justify-content: space-around
+    align-items: end
+.f__line
+    sizer(31px, 2px)
+    background: white
+.s__line
+    sizer(23px, 2px)
+    background: white
+.t__line
+    sizer(40px, 2px)
+    background: white
+
+
+
