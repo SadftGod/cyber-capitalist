@@ -1,0 +1,58 @@
+sizer(w,h)  
+   width w
+   height h
+
+flexer(jc,ai,fw)
+    display flex
+    justify-content: jc 
+    align-items: ai  
+    align-content: ai
+    flex-flow: fw
+
+c = center 
+rw = row wrap
+cw = column wrap
+cn = column nowrap  
+s = flex-start 
+e = flex-end  
+rn = row nowrap
+sb = space-between 
+sa = space-around
+
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+
+
+.Footer
+    sizer(100%, 825px)
+    background: url(img/bg.svg)  
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 700%;
+    color white
+
+    padding: 132px 120px 49px 120px
+    box-sizing: border-box
+
+.bottom_footer    
+    flexer(sb,c,rn)
+    opacity: 0.7
+.footer_buttons
+    sizer(285px,18px)
+    flexer(sa,c,rn)
+.cyberCapitalist
+    font-size: 170px;
+    sizer(801px,357px)
+    text-transform: uppercase;
+    flexer(c,c,rn)
+.footter_join
+    sizer(214px,59px)
+    flexer(c,c,rn)
+    background: #EDB614;
+    border-radius: 22px;
+    

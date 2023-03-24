@@ -1,0 +1,140 @@
+sizer(w, h)
+    width: w
+    height: h
+flexer(jc,ai,fw)
+    display flex
+    justify-content: jc 
+    align-items: ai  
+    align-content: ai
+    flex-flow: fw
+
+c = center 
+rw = row wrap
+cw = column wrap
+cn = column nowrap  
+s = flex-start 
+e = flex-end  
+rn = row nowrap
+sb = space-between 
+sa = space-around
+
+
+.AssetsSection4
+    padding-top: 100px 
+    sizer(100%, 890px)
+    flexer(c,c,rw)
+.assets__con
+    sizer(100%, 530px)
+    position relative
+    flexer(c,c,rw)
+.cyborg
+    position relative
+    z-index 1
+.drone
+    position: absolute
+    top 60px 
+    left 560px
+    z-index 0
+.cybor_hand
+    position: absolute
+    top 60px 
+    left 1080px
+    z-index 0
+.f_y_connector
+    position: absolute
+    top 370px
+    left 568px
+    z-index: 2
+.s_y_connector
+    position: absolute
+    top 440px
+    left 850px
+    z-index: 2
+.t_y_connector
+    position: absolute
+    top 280px
+    left 1180px
+    z-index: 2
+.f_y_connect
+    position: absolute
+    top 383px
+    left 582px
+    z-index: 1
+.s_y_connect
+    position: absolute
+    top 465px
+    left 864px
+    z-index: 1
+.t_y_connect
+    position: absolute
+    top 295px
+    left 1194px
+    z-index: 2
+.lower__text__f_con
+    flexer(e,s,cw)
+    position: absolute
+    top 500px
+    left 600px
+.f__lower__text
+    margin: 0
+    /* Desktop/Details */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    /* or 18px */
+
+
+    /* White */
+
+    color: #FFFFFF;
+.lower__text__s_con
+    flexer(e,s,cw)
+    position: absolute
+    top 525px
+    left 880px
+.lower__text__t_con
+    flexer(e,s,cw)
+    position: absolute
+    top 480px
+    left 1210px
+.true_capitalist
+    margin-top 140px
+    /* Desktop/Tag */
+
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 75%;
+    /* identical to box height, or 10px */
+
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    /* Gold */
+
+    color: #EDB614;
+.bottomn__text_f
+    flexer(c,c,cw)
+.botomn_upper
+    /* Desktop/H2 */
+    margin:0 
+
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 80%;
+    /* or 72px */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    /* White */
+
+    color: #FFFFFF;
+.botomn_upper span
+    color: #EDB614

@@ -55,6 +55,7 @@ a:hover ~ .gold__line {
   height: 40px;
   display: flex;
   flex-direction: column;
+  align-items: flex-end;
   justify-content: space-around;
 }
 .f__line {
@@ -75,9 +76,10 @@ a:hover ~ .gold__line {
 }
 #menu_open {
   display: none;
+  transition: 0.4s;
   z-index: 9998;
   position: fixed;
   top: 0;
-  width: 197vh;
+  width: 100%;
   height: 100vh;
 }

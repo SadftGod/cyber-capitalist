@@ -3,7 +3,24 @@ import Header from '../Header/Header';
 import './dist/BannerSection1.css';
 
 class BannerSection1 extends React.Component {
+
+   constructor(props){
+      super(props)
+      this.scroll = this.scroll.bind(this)
+   }
+
+   scroll(){
+      
+      console.log(window.scrollY)
+   }
+
+   
+   componentDidMount(){
+      this.scroll()
+   }
+
    render() {
+
       return(
          <div className="BannerSection1">
             <Header/>

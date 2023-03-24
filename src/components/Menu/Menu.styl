@@ -78,9 +78,13 @@ a:hover ~ .gold__line
 
 
 .Menu
-   sizer(100%,100vh)
-   background: url(img/img-bg-menu.png),#007B83
-   background-size: 100%
+    sizer(100%,100vh)
+    background: url(img/img-bg-menu.png),#007B83
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
    
 
 #f_line_off
@@ -107,10 +111,11 @@ a:hover ~ .gold__line
          margin-top 36px
 
 .icons_menu 
-   background: url(img/block.svg) no-repeat
-   sizer(35px,35px)
-   flexer(c,c,rn)
-   cursor pointer
+    transition: .3s
+    background: url(img/block.svg) no-repeat
+    sizer(35px,35px)
+    flexer(c,c,rn)
+    cursor pointer
 .icons_menu:hover 
      background: url(img/blockH.svg) no-repeat
 
