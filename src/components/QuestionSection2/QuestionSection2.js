@@ -9,19 +9,19 @@ class QuestionSection2 extends React.Component {
                <div className='question__bar'>
                   <div className='question__block'>
                      <div className='frame'>
-                        <img src='./img/guestion-mark.svg'/>
+                        <img src='./img/guestion-mark.svg' alt=''/>
                         <p className='text__in__frame'>Being the master of your own destiny?</p>
                      </div>
                   </div>
                   <div className='question__block'>
                      <div className='frame'>
-                        <img src='./img/guestion-mark.svg'/>
+                        <img src='./img/guestion-mark.svg' alt=''/>
                         <p className='text__in__frame'>Being the master of your own destiny?</p>
                      </div>
                   </div>
                   <div className='question__block'>
                      <div className='frame'>
-                        <img src='./img/guestion-mark.svg'/>
+                        <img src='./img/guestion-mark.svg' alt=''/>
                         <p className='text__in__frame'>Being the master of your own destiny?</p>
                      </div>
                   </div>
@@ -38,9 +38,9 @@ class QuestionSection2 extends React.Component {
                      
                   </div>
                </div>
-               <div className='img__block'>
-                  <img className='city' src='./img/img-section2.png'/>
-                  <img className='city__blur' src='./img/img-section2-blur.png'/>
+               <div className='img__block' alt=''>
+                  <img className='city' src='./img/img-section2.png' alt=''/>
+                  <img className='city__blur' src='./img/img-section2-blur.png' alt=''/>
                </div>
             </div>
          </div>

@@ -20,26 +20,26 @@ class TelegramSection3 extends React.Component {
                   <p className='awaits'>Adventures awaits.</p>
                </div>
                <div className='con__for__absolute__el'>
-                  <img className='icon__conector__tg' src='./img/icon-connection.png'/>
-                  <img className='f__conector' src='./img/f-connector.png'/>
-                  <img className='telegram__icon' src='./img/Frame 19.png'/>
+                  <img className='icon__conector__tg' src='./img/icon-connection.png' alt=''/>
+                  <img className='f__conector' src='./img/f-connector.png' alt=''/>
+                  <img className='telegram__icon' src='./img/Frame 19.png' alt=''/>
                   <div className='img__t__section'>
-                     <img className='icon__conector__img' src='./img/icon-connection.png'/>
-                     <img className='img__comp' src='./img/img-section3.png'/>
-                     <img className='img__comp__blur' src='./img/img-section3-blur.png'/>
+                     <img className='icon__conector__img' src='./img/icon-connection.png' alt=''/>
+                     <img className='img__comp' src='./img/img-section3.png' alt=''/>
+                     <img className='img__comp__blur' src='./img/img-section3-blur.png' alt=''/>
                   </div>
-                  <img className='s__conector' src='./img/s-connector.png'/>
-                  <img className='capital' src='./img/capital.png'/>
+                  <img className='s__conector' src='./img/s-connector.png' alt=''/>
+                  <img className='capital' src='./img/capital.png' alt=''/>
                   <p className='text__capital'>your capital</p>
-                  <img className='icon__conector__capital' src='./img/icon-connection.png'/>
-                  <img className='t__conector' src='./img/t-connector.png'/>
+                  <img className='icon__conector__capital' src='./img/icon-connection.png' alt=''/>
+                  <img className='t__conector' src='./img/t-connector.png' alt=''/>
                   <div className='user__icon__con'>
-                     <img src='./img/user-sign.png'/>
-                     <img src='./img/user-sign.png'/>
-                     <img src='./img/user-sign.png'/>
-                     <img src='./img/user-sign.png'/>
-                     <img src='./img/user-sign.png'/>
-                     <img src='./img/user-sign.png'/>
+                     <img src='./img/user-sign.png' alt=''/>
+                     <img src='./img/user-sign.png' alt=''/>
+                     <img src='./img/user-sign.png' alt=''/>
+                     <img src='./img/user-sign.png' alt=''/>
+                     <img src='./img/user-sign.png' alt=''/>
+                     <img src='./img/user-sign.png' alt=''/>
                   </div>
 
                </div>

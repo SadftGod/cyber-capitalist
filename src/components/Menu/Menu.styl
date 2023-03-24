@@ -1,0 +1,125 @@
+sizer(w,h)  
+   width w
+   height h
+
+flexer(jc,ai,fw)
+    display flex
+    justify-content: jc 
+    align-items: ai  
+    align-content: ai
+    flex-flow: fw
+
+c = center 
+rw = row wrap
+cw = column wrap
+cn = column nowrap  
+s = flex-start 
+e = flex-end  
+rn = row nowrap
+sb = space-between 
+sa = space-around
+
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+
+sizer(w,h)
+    width w
+    height h
+
+#header
+    sizer(100%, 80px)
+    display: flex
+    justify-content: space-around
+    align-items: center
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 75%;
+    gap 300px
+
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: white
+
+ul 
+    sizer(483px, 31px)
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex
+    justify-content: space-between
+    text-align: center
+li
+    display: flex
+    flex-direction: column
+    align-items: center
+
+a
+    text-decoration: none
+    color white
+    transition: 0.5s
+.gold__line
+    sizer(0%, 1px)
+    background: #EDB614;
+
+    transition: .4s
+a:hover
+    color: #EDB614;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+a:hover ~ .gold__line
+    width: 100%
+    margin-top 12px
+
+
+.burger_close
+    cursor pointer
+    sizer(40px, 40px)
+    flexer(c,c,rn)
+
+
+.Menu
+   sizer(100%,100vh)
+   background: url(img/img-bg-menu.png),#007B83
+   background-size: 100%
+   
+
+#f_line_off
+   transition 0.5s
+   position absolute 
+   sizer(40px,2px)
+   background: #FFFFFF;
+   transform: rotate(-45deg)
+   
+
+#s_line_off 
+   transition 0.2s
+   position absolute
+   sizer(40px,2px)
+   background: #FFFFFF;
+   transform: rotate(45deg)
+#nav_block
+   dl  
+      sizer(511px,570px)
+      font-size: 90px;
+      margin-left 120px
+      dt  
+         sizer(487px,63px)
+         margin-top 36px
+
+.icons_menu 
+   background: url(img/block.svg) no-repeat
+   sizer(35px,35px)
+   flexer(c,c,rn)
+   cursor pointer
+.icons_menu:hover 
+     background: url(img/blockH.svg) no-repeat
+
+.icons_menus
+   margin-left 16px
+#follow_block
+   flexer(s,c,rn)
+   margin-top: 13px
+#follow_blocks
+   position absolute
+   left: 1533px
+   top: 664px;

@@ -21,8 +21,8 @@ class BannerSection1 extends React.Component {
                   </div>
                </div>
                <div className='cyberpunk__girl'>
-                  <img className='girl__img' src='./img/img-section1-3d.png'/>
-                  <img className='girl__blur' src='./img/img-section1-3d-blur.svg'/>
+                  <img className='girl__img' src='./img/img-section1-3d.png' alt=''/>
+                  <img className='girl__blur' src='./img/img-section1-3d-blur.svg' alt=''/>
                </div>
                
                <button className='join__btn'>join the game</button>
@@ -30,22 +30,22 @@ class BannerSection1 extends React.Component {
                <div className='links'>
                   <div className='icons'>
                      <div className='img'>
-                        <img src='./img/discord.svg'/>
+                        <img src='./img/discord.svg' alt=''/>
                      </div>
                      <div className='img'>
-                        <img src='./img/medium.svg'/>
+                        <img src='./img/medium.svg' alt=''/>
                      </div>
                      <div className='img'>
-                        <img src='./img/telegram.svg'/>
+                        <img src='./img/telegram.svg' alt=''/>
                      </div>
                      <div className='img'>
-                        <img src='./img/twitter.svg'/>
+                        <img src='./img/twitter.svg' alt=''/>
                      </div>
                   </div>
                   <p>social media</p>
 
                </div>
-               <img className='arrow' src='./img/Scroll-up-button.svg'/>
+               <img className='arrow' src='./img/Scroll-up-button.svg' alt=''/>
             </main>
          </div>
       )
